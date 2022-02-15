@@ -19,7 +19,7 @@ while running:
 
     elif command == "events":
         for i in range(len(events)):
-            print(f"\nEvent number {i}:\n", "Event name: ", events[i].name, "\nWorkers: ", events[i].workers, "\nDate: ", events[i].date, sep="", end="\n")
+            print(f"Event number {i}:\n", "Event name: ", events[i].name, "\nWorkers: ", events[i].workers, "\nDate: ", events[i].date, sep="", end="")
 
     elif command == "people":
         for i in range(len(people)):
