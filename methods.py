@@ -61,7 +61,7 @@ def readMissing():
         data.append(missing(capsule[0].replace('_', ' '), date))
     return data
 
-def conflicts(events, missing):
+def get_conflicts(events, missing):
     conflicts = []
     for i in events:
         for j in i.workers:

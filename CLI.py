@@ -87,7 +87,7 @@ while running:
             print(f"Bad argument: {which}")
 
     elif command == "conflict":
-        conflicts = conflicts(events, missings)
+        conflicts = get_conflicts(events, missings)
         print("\n", len(conflicts), "conflicts were found")
         for i in conflicts:
             print(f"conflict: {i.worker} is missing from event: {i.name} at {i.date}")
