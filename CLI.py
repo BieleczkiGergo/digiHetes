@@ -27,7 +27,7 @@ while running:
 
     elif command == "missing":
         for i in range(len(missings)):
-            print(f"name: {missings[i].name},    missing date: {missings[i].date}", sep='', end="")
+            print(f"name: {missings[i].name},    missing date: {missings[i].date}\n", sep='', end="")
         print()
 
     elif command == "new":
